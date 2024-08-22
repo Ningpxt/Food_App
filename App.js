@@ -5,8 +5,8 @@ import Food2 from './screens/Food2';
 import Food3 from './screens/Food3';
 export default function App() {
   return (
-    // <FoodApp/>
+    <FoodApp/>
     // <Food2/>
-    <Food3/>
+    // <Food3/>
   );
 }

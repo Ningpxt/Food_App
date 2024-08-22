@@ -8,6 +8,7 @@ import N1 from '../components/N1';
 import N2 from '../components/N2';
 import N3 from '../components/N3';
 import N4Flatlist from '../components/N4Flatlist';
+import N5 from '../components/N5';
 export default function Food3() {
     return (
         <ScrollView style={{backgroundColor:'#e6ffeb'}}>
@@ -16,6 +17,7 @@ export default function Food3() {
            <N2/>
            <N3/>
            <N4Flatlist/>
+           <N5/>
             </View>
         </ScrollView>
     );

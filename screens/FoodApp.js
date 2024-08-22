@@ -6,6 +6,7 @@ import H3 from '../components/H3';
 import H4 from '../components/H4';
 import H5 from '../components/H5';
 import H6 from '../components/H6';
+import H7Flatlist from '../components/H7Flatlist';
 export default function FoodApp() {
     return (
         <ScrollView>
@@ -16,6 +17,7 @@ export default function FoodApp() {
             < H4/> 
             < H5/> 
             < H6/>
+            < H7Flatlist/>
             </View>
         </ScrollView>
     );

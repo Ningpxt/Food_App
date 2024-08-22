@@ -4,17 +4,17 @@ import { Dimensions, FlatList, Image, ScrollView, Text, View } from "react-nativ
 
 export default function H7Flatlist(props) {
     const tours = [
-        { "id": "1", "title": "แฮมเบอร์เกอร์", 
-          "uri": "https://t3.ftcdn.net/jpg/06/96/39/60/360_F_696396088_L77HhKwi64dmsLXacVz1djEK2Re1Ieyu.jpg",
+        { "id": "1", "title": "KFC", 
+          "uri": "https://images.deliveryhero.io/image/fd-th/LH/v3zl-hero.jpg?width=512&height=384&quality=45",
           "description":"โฆษณา 10.3km"
         },
-        { "id": "2", "title": "หมูกระทะ", 
-            "uri": "https://shopee.co.th/blog/wp-content/uploads/2020/04/Shopee-Blog-%E0%B8%9B%E0%B8%B4%E0%B9%89%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B0.jpg" ,
+        { "id": "2", "title": "Chestr's", 
+            "uri": "https://images.deliveryhero.io/image/fd-th/Products/149061081.jpg?width=%s" ,
         "description":"โฆษณา 10.3km"
     },
        
-            { "id": "3", "title": "บิงซู", 
-                "uri": "https://assets.epicurious.com/photos/64b06ce15265536910e94586/16:9/w_6397,h_3598,c_limit/Bingsu_HERO_071223_56686.jpg" ,
+            { "id": "3", "title": "Pizza", 
+                "uri": "https://www.tasteofhome.com/wp-content/uploads/2019/12/The-Best-Sausage-Pizzas_EXPS_PPMBZ24_245369_DR_11_07_12b.jpg?fit=700,700" ,
             "description":"โฆษณา 10.3km"
         },
 
@@ -40,6 +40,7 @@ export default function H7Flatlist(props) {
                                     <Text style={{ fontSize: 18, color: "black" }}>{ item.title }</Text>
                                     <Text style={{ fontSize: 16, color: "grey" }}>{ item.description }</Text>
                                 </View>
+                                
                             </View>
                             
                             // <TourItem item={item} index={index} />
